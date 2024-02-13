@@ -1,0 +1,268 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "PT",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "DE",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "FR",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "",
+      "position": {
+        "lat": 48.856614,
+        "lng": 2.352222
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Istanbul",
+      "country": "Turkiye",
+      "emoji": "TR",
+      "date": "2024-01-22T16:35:15.527Z",
+      "notes": "",
+      "position": {
+        "lat": 41.04207384890103,
+        "lng": 28.93798828125
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Ankara",
+      "country": "Turkiye",
+      "emoji": "TR",
+      "date": "2024-01-22T22:26:20.182Z",
+      "notes": "",
+      "position": {
+        "lat": 39.90973623453719,
+        "lng": 32.91503906250001
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Villanueva de la Vera",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2024-01-23T08:48:48.010Z",
+      "notes": "",
+      "position": {
+        "lat": 40.1452892956766,
+        "lng": -5.377807617187501
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Corduente",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2024-01-23T08:49:14.781Z",
+      "notes": "Lorem",
+      "position": {
+        "lat": 40.834593138080244,
+        "lng": -1.9665527343750002
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Zaragoza",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2024-01-23T08:50:04.678Z",
+      "notes": "",
+      "position": {
+        "lat": 41.65239288426814,
+        "lng": -0.7965087890625001
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "la Massana",
+      "country": "Andorra",
+      "emoji": "AD",
+      "date": "2024-01-23T08:50:30.002Z",
+      "notes": "",
+      "position": {
+        "lat": 42.53689200787317,
+        "lng": 1.5161132812500002
+      },
+      "id": 98443207
+    },
+    {
+      "cityName": "Haddon",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "GB",
+      "date": "2024-01-23T08:53:18.613Z",
+      "notes": "",
+      "position": {
+        "lat": 52.51956352925745,
+        "lng": -0.32409667968750006
+      },
+      "id": 98443208
+    },
+    {
+      "cityName": "Bedford",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "GB",
+      "date": "2024-01-23T08:53:21.502Z",
+      "notes": "",
+      "position": {
+        "lat": 52.2008737173322,
+        "lng": -0.43395996093750006
+      },
+      "id": 98443209
+    },
+    {
+      "cityName": "Chippenham",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "GB",
+      "date": "2024-01-23T14:51:37.069Z",
+      "notes": "",
+      "position": {
+        "lat": 52.30176096373671,
+        "lng": 0.46691894531250006
+      },
+      "id": 98443210
+    },
+    {
+      "cityName": "Buyukorhan",
+      "country": "Turkiye",
+      "emoji": "TR",
+      "date": "2024-01-23T18:46:28.418Z",
+      "notes": "",
+      "position": {
+        "lat": 39.74943369178247,
+        "lng": 28.959960937500004
+      },
+      "id": 98443211
+    },
+    {
+      "cityName": "Avis",
+      "country": "Portugal",
+      "emoji": "PT",
+      "date": "2024-01-24T13:29:32.747Z",
+      "notes": "",
+      "position": {
+        "lat": 39.036252959636606,
+        "lng": -7.805786132812501
+      },
+      "id": 98443212
+    },
+    {
+      "cityName": "Rennington",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "GB",
+      "date": "2024-01-25T13:18:02.914Z",
+      "notes": "",
+      "position": {
+        "lat": 55.47574030735024,
+        "lng": -1.702880859375
+      },
+      "id": 98443213
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "GB",
+      "date": "2024-01-25T13:18:12.170Z",
+      "notes": "",
+      "position": {
+        "lat": 51.47111882613948,
+        "lng": -0.07690429687500001
+      },
+      "id": 98443214
+    },
+    {
+      "cityName": "Wareside",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "GB",
+      "date": "2024-01-25T22:47:13.386Z",
+      "notes": "",
+      "position": {
+        "lat": 51.818802709382496,
+        "lng": 0.016479492187500003
+      },
+      "id": 98443215
+    },
+    {
+      "cityName": "Sittingbourne",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "GB",
+      "date": "2024-01-29T01:22:01.745Z",
+      "notes": "asasdasd",
+      "position": {
+        "lat": 51.29971080556154,
+        "lng": 0.7196044921875001
+      },
+      "id": 98443216
+    },
+    {
+      "cityName": "Chevington",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "GB",
+      "date": "2024-01-29T01:28:57.029Z",
+      "notes": "asd",
+      "position": {
+        "lat": 52.2008737173322,
+        "lng": 0.6413269042968751
+      },
+      "id": 98443217
+    },
+    {
+      "cityName": "London",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "GB",
+      "date": "2024-01-29T01:29:12.674Z",
+      "notes": "",
+      "position": {
+        "lat": 51.609488965698596,
+        "lng": 0.08239746093750001
+      },
+      "id": 98443218
+    },
+    {
+      "cityName": "Rovaniemi",
+      "country": "Finland",
+      "emoji": "FI",
+      "date": "2024-02-13T15:38:04.688Z",
+      "notes": "",
+      "position": {
+        "lat": 66.37275500247458,
+        "lng": 26.806640625000004
+      },
+      "id": 98443219
+    },
+    {
+      "cityName": "Pereslavl’-Zalesskiy",
+      "country": "Russian Federation (the)",
+      "emoji": "RU",
+      "date": "2024-02-13T15:38:15.202Z",
+      "notes": "",
+      "position": {
+        "lat": 56.75272287205736,
+        "lng": 38.58398437500001
+      },
+      "id": 98443220
+    }
+  ]
+}

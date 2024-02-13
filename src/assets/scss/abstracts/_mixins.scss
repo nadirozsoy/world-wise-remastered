@@ -1,0 +1,44 @@
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+%top-swiper-img {
+  width: 100%;
+  // height: auto;
+  height: calc(100vh - 9.5rem);
+  object-fit: cover;
+  @media only screen and (max-width: 640px) {
+    // height: calc(100vh - 16.5rem);
+    height: 50vh;
+  }
+}
+%hp-top-swiper-btn {
+  position: absolute;
+  top: 45%;
+  height: 6rem;
+  width: 6rem;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  z-index: 10;
+
+  > svg {
+    @include absCenter;
+  }
+
+  &:hover {
+    > g > path {
+      &:first-of-type {
+        fill: white;
+        transition: 0.3s ease-out;
+      }
+      &:nth-of-type(2) {
+        stroke: var(--primary-color);
+        transition: 0.3s ease-out;
+      }
+    }
+  }
+}

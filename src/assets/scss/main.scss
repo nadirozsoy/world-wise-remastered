@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'https://unpkg.com/leaflet@1.9.3/dist/leaflet.css';
+
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+@import 'components/sidebar';
+
+@import 'layouts/header';
+
+@layer utilities {
+  :root {
+    --color-brand--1: #ffb545;
+    --color-brand--2: #00c46a;
+    --color-dark--0: #242a2e;
+    --color-dark--1: #2d3439;
+    --color-dark--2: #42484d;
+    --color-light--1: #aaa;
+    --color-light--2: #ececec;
+    --color-light--3: #d6dee0;
+    --text-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0, 0, 0, 0.3);
+  }
+
+  .homepage-bg {
+    background-image: linear-gradient(rgba(36, 42, 46, 0.8), rgba(36, 42, 46, 0.8)), url('/assets/images/bg.jpg');
+  }
+
+  .shadow-primary {
+    box-shadow:
+      rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+
+  .animate-top {
+    /* animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-name: animate-top;
+    animation-timing-function: cubic-bezier(0.5, 0, 0, 1); */
+    animation: animate-top 1s both cubic-bezier(0.5, 0, 0, 1);
+  }
+
+  .animate-right {
+    animation: animate-right 1s both cubic-bezier(0.5, 0, 0, 1);
+  }
+
+  .animate-down {
+    animation: animate-down 1s both cubic-bezier(0.5, 0, 0, 1);
+  }
+
+  .wave-btn {
+    animation: waveBtn 2s infinite;
+  }
+
+  .text-shadow {
+    text-shadow: var(--text-shadow);
+  }
+
+  .containerLarge {
+    width: min(100% - 2rem);
+    margin-inline: auto;
+
+    @media (min-width: 640px) {
+      width: min(100% - 2rem, 640px);
+      margin-inline: auto;
+    }
+    @media (min-width: 768px) {
+      width: min(100% - 2rem, 768px);
+      margin-inline: auto;
+    }
+    @media (min-width: 1024px) {
+      width: min(100% - 2rem, 1024px);
+      margin-inline: auto;
+    }
+    @media (min-width: 1280px) {
+      width: min(100% - 2rem, 1280px);
+      margin-inline: auto;
+    }
+  }
+
+  .containerSmall {
+    width: min(100% - 2rem);
+    margin-inline: auto;
+
+    @media (min-width: 640px) {
+      width: min(100% - 2rem, 640px);
+      margin-inline: auto;
+    }
+    @media (min-width: 768px) {
+      width: min(100% - 2rem, 768px);
+      margin-inline: auto;
+    }
+    @media (min-width: 1024px) {
+      width: min(100% - 2rem, 1024px);
+      margin-inline: auto;
+    }
+    @media (min-width: 1280px) {
+      width: min(100% - 2rem, 1280px);
+      margin-inline: auto;
+    }
+    @media (min-width: 1700px) {
+      width: min(100% - 2rem, 1300px);
+      margin-inline: auto;
+    }
+  }
+
+  .containerMinify {
+    width: min(100% - 2rem);
+    margin-inline: auto;
+
+    @media (min-width: 640px) {
+      width: min(100% - 2rem, 500px);
+      margin-inline: auto;
+    }
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .overflow-anywhere {
+    overflow-wrap: anywhere;
+  }
+
+  .border-rare {
+    border-image: linear-gradient(to right, transparent, var(--primary-color), transparent) 1;
+  }
+
+  .border-rare-y {
+    border-image: linear-gradient(to top, transparent, var(--primary-color), transparent) 1;
+  }
+
+  .border-rare-white {
+    border-image: linear-gradient(to right, transparent, #fff, transparent) 1;
+  }
+
+  .border-rare-y-white {
+    border-image: linear-gradient(to top, transparent, #fff, transparent) 1;
+  }
+
+  .border-rare-gray {
+    border-image: linear-gradient(to right, transparent, #e7e7e7, transparent) 1;
+  }
+  .text-initial {
+    text-align: initial;
+  }
+  .break-word {
+    word-wrap: break-word;
+  }
+
+  .scrollbar {
+    scrollbar-color: $thumbBG $scrollbarBG;
+    scrollbar-width: thin;
+    &::-webkit-scrollbar {
+      width: 3px;
+      height: 0;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: $scrollbarBG;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $thumbBG;
+      border-radius: 4px;
+      border: 4px solid $scrollbarBG;
+    }
+
+    &:hover::-webkit-scrollbar-thumb {
+      background-color: $thumbBG-hover;
+    }
+
+    &::-webkit-scrollbar {
+      width: 7px;
+      height: 0;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $thumbBG-hover;
+      border-radius: 4px;
+      border: 4px solid $scrollbarBG;
+    }
+  }
+}

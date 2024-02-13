@@ -1,0 +1,8 @@
+{
+  "nav": {
+    "home": "Anasayfa",
+    "pricing": "Fiyatlandırma",
+    "product": "Ürün"
+  },
+  "description": "Düzenle <1>src/App.tsx</1> ve kaydedip yeniden yükleyin."
+}
